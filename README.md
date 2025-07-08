@@ -4,9 +4,10 @@ In this work, we explore the problem of commonsense-level vision-knowledge confl
 
 ## Benchmark
 
-<p align="center">
-  <img src="assets/dataset1.png" alt="Example 1" width="45%" style="margin-right: 24px;"/>
-  <img src="assets/dataset2.png" alt="Example 2" width="28%" style="margin-left: 24px;"/>
+<p>
+  <img src="assets/dataset1.png" alt="Example 1" width="30%" style="display: inline-block; vertical-align: center; margin-right: 70px;"/>
+  <img src="assets/dataset2.png" alt="Example 2" width="19%" style="display: inline-block; vertical-align: center;"/>
+  <div style="clear: both;"></div>
 </p>
 In total, ConflictVIS has 1122 QA Pairs, including 3 question types and 2 conflict targets.
 
@@ -66,15 +67,20 @@ print("Ground-truth     :", sample["answer"])
 
 ## Results
 ### Sanity Test
-<p><img src='results/sanity_test.png'> </p>
+<p><img src='results/sanity_test.png' width="400px"> </p>  
+
 
 ### Benchmark Results
-<p><img src='results/qa_type.png'> </p>
-<p><img src='results/conflict_type.png'> </p>
+<p><img src='results/qa_type.png' width="550px"> </p>
+<p><img src='results/conflict_type.png' width="550px"> </p>
 
 ### Case Study
-<p><img src='assets/case1.png' width="500px"> </p>
-<p><img src='assets/case2.png' width="500px"> </p>
+<p align="center">
+  <img src='assets/case1.png' width="500px">
+</p>
+<p align="center">
+  <img src='assets/case2.png' width="500px">
+</p>
 
 ## Citation
 If you find our study interesting or helpful, please cite our paper as follows 😃
